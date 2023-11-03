@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    border: 15px solid lightcoral;
+    width: 1200px;
+    grid-template-columns: 400px 600px;
+    grid-gap: 10px;
+}
+
+.container > div {
+    font-size: 90px;
+    background-color: rgba(0,0,255,.2);
+    border: 10px solid blue;
+}
